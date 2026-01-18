@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - Alaric's Website</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <a href="/" class="logo">Alaric's Website</a>
+            <ul class="nav-links">
+                <li><a href="/">Home</a></li>
+                <li><a href="/about">About</a></li>
+                <li><a href="/contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="main-content">
+        <section class="page-header">
+            <div class="container">
+                <h1>About Us</h1>
+                <p>Learn more about our website and mission</p>
+            </div>
+        </section>
+
+        <section class="content-section">
+            <div class="container">
+                <div class="content-box">
+                    <h2>Our Story</h2>
+                    <p>This website was built using Python and the Flask web framework. Flask is a lightweight and flexible framework that makes it easy to create web applications quickly.</p>
+                    
+                    <h2>Technology Stack</h2>
+                    <ul>
+                        <li><strong>Python:</strong> A powerful and versatile programming language</li>
+                        <li><strong>Flask:</strong> A micro web framework for Python</li>
+                        <li><strong>HTML/CSS:</strong> For beautiful, responsive user interfaces</li>
+                    </ul>
+
+                    <h2>Why Flask?</h2>
+                    <p>Flask is perfect for building web applications because it's simple, flexible, and doesn't require particular tools or libraries. It gives you the freedom to structure your application however you want.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+                <p>&copy; 2025 Alaric's Website. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
